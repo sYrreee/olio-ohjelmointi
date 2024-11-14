@@ -12,3 +12,15 @@ int factorial(int n)
         return result;
     }
 }
+
+int coefficent(int n, int k)
+{
+    if(k > n || k < 0){
+
+    }
+    else {
+        int result;
+        result = factorial(n) / (factorial (n-k)* (k));
+        return result;
+    }
+}

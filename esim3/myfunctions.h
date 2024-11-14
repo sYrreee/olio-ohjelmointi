@@ -4,4 +4,6 @@
 
 int factorial(int);
 
+int coefficent(int, int);
+
 #endif // MYFUNCTIONS_H
