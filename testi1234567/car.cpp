@@ -1,6 +1,7 @@
 #include "car.h"
 #include <iostream>
 using namespace std;
+
 string Car::getBrand() const
 {
     return brand;
@@ -30,16 +31,9 @@ void Car::setYearModel(int newYearModel)
 {
     yearModel = newYearModel;
 }
+void printData() {
 
-
-
-void Car::printData()
-{
-    cout << "Merkki: " << brand << endl;
-    cout << "Malli: " << model << endl;
-    cout << "Vuosi: " << yearModel << endl;
+    cout << "Brand: " << brand << endl;
+    cout << "Model: " << model << endl;
+    cout << "Year: " << yearModel << endl;
 }
-
-
-
-Car::Car() {}

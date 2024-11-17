@@ -6,7 +6,6 @@ using namespace std;
 
 class Car
 {
-
 private:
     string brand;
     string model;
@@ -20,7 +19,6 @@ public:
     void setModel(const string &newModel);
     int getYearModel() const;
     void setYearModel(int newYearModel);
-
 };
 
 #endif // CAR_H
