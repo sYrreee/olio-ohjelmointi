@@ -4,22 +4,20 @@
 
 using namespace std;
 
-
 class Chef
 {
-private:
-
 protected:
     string name;
 public:
-    // konstruktori
-    Chef();
-    // destruktori
+    // Konstruktori
+    Chef(string chefName);
+
+    // Destruktori
     ~Chef();
 
     void makeSalad();
     void makeSoup();
-
 };
 
 #endif // CHEF_H
+
