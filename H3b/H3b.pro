@@ -4,8 +4,10 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        car.cpp \
+        animal.cpp \
+        dog.cpp \
         main.cpp
 
 HEADERS += \
-    car.h
+    animal.h \
+    dog.h
